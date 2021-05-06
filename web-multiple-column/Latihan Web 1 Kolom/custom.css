@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+
+:root {
+    --primary-color : #272822;
+    --blue-color : #0277a9;
+    --font-size-primary : 24px;
+}
+.container {
+    width: 900px;
+    margin: auto;
+
+}
+.header {
+    /* width: 900px;
+    margin: auto; */
+    padding: 8px;
+    text-align: left;
+
+}
+.header img {
+    width: 100%;
+}
+.menu {
+    /* width: 930px; */
+    background-color: blue;
+    height: 50px;
+    margin: auto;
+    padding: 8px;
+    margin-top: 8px;
+    
+}
+.menu ul li{
+    list-style: none;
+}
+
+.menu ul li a {
+    float: left;
+    color:white;
+    text-decoration: none;
+    margin: auto;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+.what {
+    margin-top: 5px;
+}
+.what h3 {
+    background-color: rgb(182, 179, 179);
+    padding: 8px;
+    margin: auto;
+    }
+
+.member h3 {
+    background-color: rgb(182, 179, 179);
+    padding: 8px;
+}
+
+.otherproject h3 {
+    background-color: rgb(182, 179, 179);
+    padding: 8px;
+    margin: auto;
+    }
+.otherproject img {
+    width: 100%;
+    margin-top: 5px;
+}
+.footer {
+    width: auto;
+    padding: 5px;
+    color: white;
+    background-color: rgb(2, 1, 1);
+}
